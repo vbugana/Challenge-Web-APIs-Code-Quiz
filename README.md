@@ -41,23 +41,25 @@ THEN I can save my initials and my score
 * Additional questions can be added without affecting functionality
 
 ## Features
+
 * Two HTML Pages
     * index.html 
-        * Contains landing page to start timer
-        * Appends two new pages 
+      * Contains landing page to start timer
+      * Appends two new pages 
     * highscores.html
-        * Retrieves local data from previous page
+      * Retrieves local data from previous page
 * One CSS Page
     * styles.css
-        * Contains centering and styling for html list features
-        * Contains media queries
+      * Contains centering and styling for html list features
+      * Contains media queries
 * Three Javascript Pages
-        * Variables, including arrays with object
-        * Event listeners
-        * if/else if statements
-        * For Loops
-        * Functions 
-        * Local Storage set and get 
+      * Variables, including arrays with object
+      * Event listeners
+      * if/else if statements
+      * For Loops
+      * Functions 
+      * Local Storage set and get 
 
 ## License
+
 MIT
