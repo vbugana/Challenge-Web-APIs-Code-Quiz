@@ -42,17 +42,18 @@ THEN I can save my initials and my score
 
 ## Features
 
-* Two HTML Pages
+* Two HTML pages
     * index.html 
       * Contains landing page to start timer
       * Appends two new pages 
     * highscores.html
       * Retrieves local data from previous page
-* One CSS Page
+* One CSS page
     * styles.css
       * Contains centering and styling for html list features
       * Contains media queries
-* Three Javascript Pages
+* Three Javascript pages
+    * logic.js/questions.js/scores.js  
       * Variables, including arrays with object
       * Event listeners
       * if/else if statements
