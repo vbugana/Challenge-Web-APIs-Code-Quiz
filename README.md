@@ -20,7 +20,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
-https://github.com/vbugana/Challenge-Web-APIs-Code-Quiz/blob/main/assets/images/08-web-apis-challenge-demo.gif
+<<img src=https://github.com/vbugana/Challenge-Web-APIs-Code-Quiz/blob/main/assets/images/08-web-apis-challenge-demo.gif>
 ## Design Notes
 
 * Responsive user interface achieved through the use of media queries
