@@ -3,7 +3,7 @@
 body {
   font-family: Verdana;
   background-color: #ffffff;
-  margin: 0px;
+  margin: 50px;
 }
 a {
   color:  #ffffff;
@@ -20,7 +20,7 @@ header {
   background-color: #563d7c;
   color: #ffffff;
   padding: 3vh;
-}
+  }
 
 /* specify min-width for time element to give enough space for the span inside it to contain 3 digits without visibly moving the "time" text */
 
@@ -45,6 +45,7 @@ main {
   padding: 2vh;
   border-radius: 8px;
   border: none;
+  
 }
 
 .inline-buttons {
@@ -102,7 +103,9 @@ main {
 /* Leaderboard Card Styles */
 
 #back-button {
-  margin-right: 8px;
+  margin-right: 10px;
+  font-family: Verdana;
+  font-size: 12.5px;
 }
 
 .highscore-list {

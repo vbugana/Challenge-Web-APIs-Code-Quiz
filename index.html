@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-gb">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +13,14 @@
     <header>
 
         <a id=leaderboard-link href="highscores.html">View Highscores</a> 
-        
+         <div hidden audio controls id="correctAnswer" >
+        <source src="./assets/sfx/correct.wav" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </div>
+    <div hidden audio controls id="incorrectAnswer" class="hide">
+        <source src="./assets/sfx/correct.wav" type="audio/mpeg">
+       Your browser does not support the audio element.
+    </div>
 <div class="time">Time:<span id="time"></span> </div>
     </header>
 
