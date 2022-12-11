@@ -1,78 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <link rel="icon" type="image/png" href="./asset/images/photo_2022-11-07_23-05-11.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Coding Quiz</title>
-    <link rel="shortcut icon" href="./assets/images/faviconGame.ico" type="image/x-icon">
-</head>
 
-<body>
-    <header>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-        <a id=leaderboard-link href="highscores.html">View Highscores</a> 
-         <div hidden audio controls id="correctAnswer" >
-        <source src="./assets/sfx/correct.wav" type="audio/mpeg">
-      Your browser does not support the audio element.
+  <body>
+    <div class="scores"><a href="score.html">View Highscores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
+
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
     </div>
-    <div hidden audio controls id="incorrectAnswer" class="hide">
-        <source src="./assets/sfx/correct.wav" type="audio/mpeg">
-       Your browser does not support the audio element.
-    </div>
-<div class="time">Time:<span id="time"></span> </div>
-    </header>
 
-    <main>
-        <div id=start-card class="card">
-            <h2 id=title>Coding Quiz Challenge</h2>
-            <p>Try to answer to following code-related questions within the time limit. <br><br> Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            <button id=start-button class="button">Start Quiz</button>
-        </div>
-
-        <div hidden id=question-card class="card">
-
-            <h2 id=question-text></h2>
-
-            <div id=quiz-options>
-                <button id=option0 class="button option-button"></button>
-                <button id=option1 class="button option-button"></button>
-                <button id=option2 class="button option-button"></button>
-                <button id=option3 class="button option-button"></button>
-            </div>
-
-            <div id=result-div>
-                <hr>
-                <p id=result-text></p>
-            </div>
-
-        </div>
-
-        <div hidden id=score-card class="card">
-            <h2>All done!</h2>
-            <p>Your final score is <span id=score></span>.</p>
-            <form class="inline-form" id="submission-form">
-                  <label for="initials">Enter initials: </label>
-                  <input type="text" id="initials">
-                  <button id="submit-button" class="button">Submit</button>
-            </form>
-        </div>
-
-        <div hidden id=leaderboard-card class="card">
-            <h2>Highscores</h2>
-            <ol id="highscore-list">
-            </ol>
-            <div class="inline-buttons">
-                <button id="back-button" class="button">Go Back</button>
-                <button id="clear-button" class="button">Clear Highscores</button>
-            </div>
-        </div>
-
-    </main>
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
-
-</body>
-
+  </body>
 </html>

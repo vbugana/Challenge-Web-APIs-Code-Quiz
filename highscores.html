@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en-gb">
   <head>
-    <meta charset='UTF-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+    <link rel="icon" type="image/png" href="./asset/images/photo_2022-11-07_23-05-11.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Highscores</title>
 
-    <link rel='stylesheet' href='./assets/css/style.css'>
+    <link rel="stylesheet" href="./asset/css/style.css" />
   </head>
 
   <body>
-    <div  id=leaderboard-card class='card'>
+    <div class="wrapper">
       <h1>Highscores</h1>
-      
-      <ol id='highscoreList' class='leaderboard-link'></ol>
-      <div class='inline-buttons'>
-      <a href='index.html' id ='back-button' class='button'>Go Back</a>
-      <button id='clear-button' class='button'>Clear Highscores</button>
+      <ol id="highscores"></ol>
+
+      <a href="index.html"><button>Go Back</button></a>
+      <button id="clear">Clear Highscores</button>
     </div>
-      
-    <script src='./assets/js/scores.js'></script>
-    
+
+    <script src="./assets/js/highscores.js"></script>
   </body>
 </html>

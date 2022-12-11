@@ -6,7 +6,7 @@
 * This project emphasizes the use of using Javascript to make dynamic changes to an HTML document.
 * This project utilizes the use of appending HTML pages.
 * Final project supposed to look like the below sample provided:
-  <img src=https://github.com/vbugana/Challenge-Web-APIs-Code-Quiz/blob/main/assets/images/08-web-apis-challenge-demo.gif>
+  <img src="./assets/images/08-web-apis-challenge-demo.gif">
 
 ## User Acceptance
 
@@ -64,3 +64,16 @@ THEN I can save my initials and my score
 ## License
 
 MIT
+
+## Room for improvement: WIP
+
+Add audio through the DOM to the answers feedback
+
+```
+	//quiz feedback variable sound
+var audioCorrectAnswerElement = document.createElement('audio','#feedback');
+audioCorrectAnswerElement.setAttribute('src', './assets/sfx/correct.wav');
+
+var audioIncorrectAnswerElement = document.createElement('audio','#feedback');
+audioIncorrectAnswerElement.setAttribute('src', './assets/sfx/incorrect.wav');
+```
