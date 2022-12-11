@@ -9,11 +9,11 @@
   <img src="./assets/images/08-web-apis-challenge-demo.gif">
 
 ## User Acceptance
-
+```
 AS A coding bootcamp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
-
+```
 ## Project Outline
 
 An interactive, timed JavaScript quiz that stores a high score leaderboard in local storage.
