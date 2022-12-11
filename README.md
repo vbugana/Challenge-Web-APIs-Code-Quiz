@@ -6,6 +6,7 @@
 * This project emphasizes the use of using Javascript to make dynamic changes to an HTML document.
 * This project utilizes the use of appending HTML pages.
 * Final project supposed to look like the below sample provided:
+
   <img src="./assets/images/08-web-apis-challenge-demo.gif">
 
 ## User Acceptance
