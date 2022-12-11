@@ -78,3 +78,4 @@ audioCorrectAnswerElement.setAttribute('src', './assets/sfx/correct.wav');
 var audioIncorrectAnswerElement = document.createElement('audio','#feedback');
 audioIncorrectAnswerElement.setAttribute('src', './assets/sfx/incorrect.wav');
 ```
+Improve the lag between feedabck and next page
