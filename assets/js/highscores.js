@@ -1,5 +1,5 @@
 function printHighscores() {
-  // either get scores from localstorage or set to empty array
+  // either get scores from local storage or set to empty array
   var highscores = JSON.parse(window.localStorage.getItem('highscores')) || [];
 
   // sort highscores by score property in descending order

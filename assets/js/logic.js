@@ -126,7 +126,7 @@ function saveHighscore() {
   var initials = initialsEl.value.trim();
 
   if (initials !== '') {
-    // get saved scores from localstorage, or if not any, set to empty array
+    // get saved scores from local storage, or if not any, set to empty array
     var highscores =
       JSON.parse(window.localStorage.getItem('highscores')) || [];
 
@@ -136,7 +136,7 @@ function saveHighscore() {
       initials: initials
     };
 
-    // save to localstorage
+    // save to local storage
     highscores.push(newScore);
     window.localStorage.setItem('highscores', JSON.stringify(highscores));
 
@@ -146,7 +146,6 @@ function saveHighscore() {
 }
 
 function checkForEnter(event) {
-  // '13' represents the enter key
   if (event.key === 'Enter') {
     saveHighscore();
   }
